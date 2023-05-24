@@ -101,6 +101,12 @@ box.forEach((item, i1) => {
   });
 });
 
+let reg_btn = document.getElementById("register");
+reg_btn.addEventListener("click", () => {
+  window.location.href =
+    "https://docs.google.com/forms/d/e/1FAIpQLSdo4urSGVj81e1jW8dzk37kI-wtN2CdZz8W-_UZUHUWB8cJZg/viewform?usp=sf_link";
+});
+
 // *********** code for rules popup ***********
 
 let nav_rules = document.querySelector(".nav_rules");
@@ -114,11 +120,11 @@ function disp() {
   nav_rules_.classList.remove("nav_rules_visible");
 }
 
-// this is for hamburg
-const hamburger = document.querySelector(".hamburger");
-let ham = document.querySelector("#navbar ul");
+// // this is for hamburg
+// const hamburger = document.querySelector(".hamburger");
+// let ham = document.querySelector("#navbar ul");
 
-hamburger.addEventListener("click", function () {
-  this.classList.toggle("is-active");
-  ham.classList.add("visi");
-});
+// hamburger.addEventListener("click", function () {
+//   this.classList.toggle("is-active");
+//   ham.classList.add("visi");
+// });

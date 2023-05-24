@@ -500,3 +500,20 @@ ul li a:hover {
 .hamburger.is-active span:nth-child(3) {
   transform: translate(-3px, 3px) rotate(-45deg);
 }
+#register {
+  color: white;
+  background: none;
+  border-radius: 20px;
+  width: 220px;
+  height: 65px;
+  font-size: 37px;
+  letter-spacing: -1px;
+  font-family: monospace;
+  border: solid red;
+  margin: 50px 0px;
+}
+
+#register:hover{
+  background:rgb(255, 0, 0);
+  /* color:black; */
+}
