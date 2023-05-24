@@ -114,7 +114,16 @@
     font-size: 12px;
   }
   .c1 {
-    font-size: 2px;
+    font-size: 8px;
+  }
+  #services .box img {
+    height: 15em;
+    width: 15em;
+    margin-top: 50px;
+  }
+  .h-primary img {
+    height: 4em;
+    width: 4em;
   }
 }
 
