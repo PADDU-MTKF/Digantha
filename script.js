@@ -14,7 +14,7 @@ function image_link() {
     if (sr.includes("drive.google.com/file")) {
       sr = sr.replace("file/d/", "uc?id=");
       sr = sr.replace("/view?usp=sharing", "");
-      console.log(sr);
+      // console.log(sr);
       img[i].src = sr;
     }
   }
@@ -49,7 +49,7 @@ var countdownTimer = setInterval(function () {
   // If the countdown is finished, clear the interval
   if (distance < 0) {
     clearInterval(countdownTimer);
-    console.log("Countdown finished!");
+    timer_element.innerHTML("Countdown finished!");
     // Perform any additional actions when the countdown is finished
   }
 }, 1000);
@@ -114,14 +114,11 @@ function disp() {
   nav_rules_.classList.remove("nav_rules_visible");
 }
 
-
-
-
 // this is for hamburg
-const hamburger=document.querySelector('.hamburger');
-let ham=document.querySelector("#navbar ul")
+const hamburger = document.querySelector(".hamburger");
+let ham = document.querySelector("#navbar ul");
 
-hamburger.addEventListener("click",function(){
-    this.classList.toggle('is-active');
-    ham.classList.add("visi")
-})
+hamburger.addEventListener("click", function () {
+  this.classList.toggle("is-active");
+  ham.classList.add("visi");
+});

@@ -229,7 +229,7 @@ const data = {
   "SWARA SANGAMA (GROUP SINGING - EASTERN)": {
     name: "SWARA SANGAMA (GROUP SINGING - Eastern)",
     description:
-      "SWARA SANGAMA, an enchanting group singing event, celebrates the beauty of Eastern music. Each team, comprising a maximum of 8 participants, including accompanists, has the opportunity to captivate the audience with their melodious performances. In this event, tracks are allowed, and teams have the freedom to choose songs from any Indian language. With a time limit of 4+1 minutes, participants can showcase their vocal talents, harmonies, and musical prowess, leaving a lasting impression on the listeners. Join us for an unforgettable musical experience that embraces the diverse melodies and rhythms of Eastern music.Participants who are involved in this specific event are not permitted to participate in any other concurrent events.",
+      "SWARA SANGAMA, an enchanting group singing event, celebrates the beauty of Eastern music. Each team, comprising a maximum of 8 participants, including accompanists, has the opportunity to captivate the audience with their melodious performances. In this event, tracks are allowed, and teams have the freedom to choose songs from any Indian language. With a time limit of 4+1 minutes, participants can showcase their vocal talents, harmonies, and musical prowess, leaving a lasting impression on the listeners. Join us for an unforgettable musical experience that embraces the diverse melodies and rhythms of Eastern music.Participants who are involved in this specific event are not permitted to participate in any other individual events.",
     staffCoordinators: [
       {
         name: "Ms. Ramitha",
@@ -250,7 +250,7 @@ const data = {
   "RANGA TARANGA (STREET PLAY)": {
     name: "RANGA TARANGA (STREET PLAY)",
     description:
-      "RANGA TARANGA, an electrifying street play event, sets the stage for teams to captivate the audience with their powerful performances. With a maximum performance time of 8+2 minutes, participants have the opportunity to showcase their creativity and acting skills. The event revolves around the theme of Election (ವಿಷಯ: ಚುನಾವಣೆ), allowing teams to explore and express various aspects of the electoral process through their street play. Each team is allowed a total of 8 participants, including accompanists, who contribute to the overall impact of the performance. Join us for a captivating display of talent and a thought-provoking theatrical experience.Participants who are involved in this specific event are not permitted to participate in any other concurrent events.",
+      "RANGA TARANGA, an electrifying street play event, sets the stage for teams to captivate the audience with their powerful performances. With a maximum performance time of 8+2 minutes, participants have the opportunity to showcase their creativity and acting skills. The event revolves around the theme of Election (ವಿಷಯ: ಚುನಾವಣೆ), allowing teams to explore and express various aspects of the electoral process through their street play. Each team is allowed a total of 8 participants, including accompanists, who contribute to the overall impact of the performance. Join us for a captivating display of talent and a thought-provoking theatrical experience.Participants who are involved in this specific event are not permitted to participate in any other individual events.",
     staffCoordinators: [
       {
         name: "Dr. Prashanth M D",
@@ -275,7 +275,7 @@ const data = {
   "NATYA VAIBHAVA (GROUP DANCE)": {
     name: "NATYA VAIBHAVA (GROUP DANCE)",
     description:
-      "NATYA VAIBHAVA, a mesmerizing group dance event, invites teams to showcase their artistic talents and rhythmic expressions. Each team can have a minimum of 6 and a maximum of 8 participants, creating a vibrant ensemble on stage. Prior to the event, participants must submit their performance on a pendrive, ensuring smooth execution during the event. With a time limit of 5+2 minutes, teams have the opportunity to dazzle the audience with their choreography, synchronization, and captivating dance moves. It is important to note that the use of fire and any form of vulgarity is strictly prohibited, ensuring a respectful and safe environment for all participants and spectators. Join us for an extraordinary celebration of dance and witness the enchanting beauty of NATYA VAIBHAVA.Participants who are involved in this specific event are not permitted to participate in any other concurrent events.",
+      "NATYA VAIBHAVA, a mesmerizing group dance event, invites teams to showcase their artistic talents and rhythmic expressions. Each team can have a minimum of 6 and a maximum of 8 participants, creating a vibrant ensemble on stage. Prior to the event, participants must submit their performance on a pendrive, ensuring smooth execution during the event. With a time limit of 5+2 minutes, teams have the opportunity to dazzle the audience with their choreography, synchronization, and captivating dance moves. It is important to note that the use of fire and any form of vulgarity is strictly prohibited, ensuring a respectful and safe environment for all participants and spectators. Join us for an extraordinary celebration of dance and witness the enchanting beauty of NATYA VAIBHAVA.Participants who are involved in this specific event are not permitted to participate in any other individual events.",
     staffCoordinators: [
       {
         name: "Ms. Sharmitha U",
@@ -395,11 +395,11 @@ var urlParams = new URLSearchParams(queryString);
 var key = urlParams.get("key").toUpperCase().trim();
 var im_src = urlParams.get("img").trim();
 
-console.log(key);
-console.log(im_src);
+// console.log(key);
+// console.log(im_src);
 let content = get_data(key);
 
-console.log(content);
+// console.log(content);
 // let title=cont["name"]
 //     let desc=cont["description"]
 
@@ -445,7 +445,7 @@ function image_link() {
     if (sr.includes("drive.google.com/file")) {
       sr = sr.replace("file/d/", "uc?id=");
       sr = sr.replace("/view?usp=sharing", "");
-      console.log(sr);
+      // console.log(sr);
       img[i].src = sr;
     }
   }
