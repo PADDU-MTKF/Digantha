@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 886px) {
   #navbar {
     flex-direction: column;
   }
@@ -57,21 +57,19 @@
   .hamburger {
     display: block;
   }
-  .visi{
+  .visi {
     transform: translateY(14em);
   }
-  
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 886px) {
   #client-section {
     margin: 100px auto;
   }
-  .phone_rul{
+  .phone_rul {
     display: block;
     color: white;
     margin: 0 50px;
-    
   }
   #client-section h1 {
     font-size: 35px;
@@ -108,6 +106,29 @@
   }
 }
 
+@media screen and (max-width: 390px) {
+  .btn {
+    font-size: 30px;
+  }
+  .gdc {
+    font-size: 12px;
+  }
+  .c1 {
+    font-size: 2px;
+  }
+}
+
+@media screen and (max-width: 932px) {
+  .btn {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1175px) {
+  #navbar ul li {
+    margin-left: -61px;
+    margin-top: 10px;
+  }
+}
 /* for desktop */
 @media screen and (min-width: 900px) {
   .box h2 {

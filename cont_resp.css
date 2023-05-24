@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1120px) {
   /* CSS rules for screens with a maximum width of 600px */
   .left,
   .right {
@@ -65,5 +65,10 @@
     line-height: 1.5em;
   }
 
- 
+  #stu_con,
+  #staff_con {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+  }
 }

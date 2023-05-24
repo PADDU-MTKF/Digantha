@@ -190,18 +190,18 @@ const data = {
       "Abhyudaya, an engaging marketing event, invites teams of two participants to partake in an atmosphere of professionalism, dressed in formal attire. To ensure smooth participation, participants are requested to bring their own essential tools, including laptops, pendrives, dongles, and any other necessary items. These provisions will empower participants to showcase their marketing prowess, leveraging modern technology and strategic insights to excel in the dynamic business landscape. By being well-equipped, participants can confidently navigate through the challenges, leaving a lasting impression with their innovative marketing strategies and exceptional communication skills.Participants who are involved in this specific event are not permitted to participate in any other concurrent events.",
     staffCoordinators: [
       {
-        name: "Mr. Vinayak Hegde",
-        contact: "+91 9845391072"
+        name: "Mr. Punitha R",
+        contact: "+91 7259794451"
       }
     ],
     studentCoordinators: [
       {
-        name: "Vineetha",
-        contact: "+91 9900638110"
+        name: "Prakruti P Shetty",
+        contact: "+91 9742996849"
       },
       {
-        name: "Prajwal",
-        contact: "+91 7760904659"
+        name: "Varun H Kanchan",
+        contact: "+91 8073690758"
       }
     ]
   },
