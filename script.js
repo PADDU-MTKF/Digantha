@@ -120,6 +120,34 @@ function disp() {
   nav_rules_.classList.remove("nav_rules_visible");
 }
 
+//preloader
+
+// Detect when all images have finished loading
+document.addEventListener("DOMContentLoaded", function () {
+  var images = document.querySelectorAll("img");
+  var loadedImages = 0;
+
+  // Increment the loadedImages count when each image finishes loading
+  function imageLoaded() {
+    loadedImages++;
+    if (loadedImages === images.length) {
+      var preloader = document.querySelector(".preloader");
+      preloader.classList.add("fade-out");
+
+      setTimeout(function () {
+        preloader.style.display = "none";
+      }, 500); // Adjust the timeout value to match the duration of the fade-out animation
+
+      // preloader.style.display = "none"; // Hide the preloader when all images are loaded
+    }
+  }
+
+  // Attach the imageLoaded function to the load event of each image
+  for (var i = 0; i < images.length; i++) {
+    images[i].addEventListener("load", imageLoaded);
+  }
+});
+
 // // this is for hamburg
 // const hamburger = document.querySelector(".hamburger");
 // let ham = document.querySelector("#navbar ul");
