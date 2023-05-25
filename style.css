@@ -10,7 +10,7 @@ body {
   background-color: black;
   scroll-behavior: initial;
   overflow-x: hidden;
-  background-image: url("https://drive.google.com/uc?id=1AzuVM-676NYLrGdZfdn2YwRMtD4yvTmO");
+  background-image: url("resources/stars.png");
 }
 
 #logo img {
@@ -110,8 +110,7 @@ body {
 #home::before {
   content: "";
   position: absolute;
-  background: url("https://drive.google.com/uc?id=1n7nT42459nqkw2CJ2R1rhSJN-SPV1SP7")
-    no-repeat center center;
+  background: url("resources/Web.png") no-repeat center center;
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -513,7 +512,7 @@ ul li a:hover {
   margin: 50px 0px;
 }
 
-#register:hover{
-  background:rgb(255, 0, 0);
+#register:hover {
+  background: rgb(255, 0, 0);
   /* color:black; */
 }
