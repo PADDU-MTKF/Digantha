@@ -121,6 +121,16 @@ function disp() {
 }
 
 //preloader
+
+setTimeout(() => {
+  var preloader = document.querySelector(".preloader");
+  preloader.classList.add("fade-out");
+
+  setTimeout(function () {
+    preloader.style.display = "none";
+  }, 500); // Adjust the timeout value to match the duration of the fade-out animation
+}, 4000);
+
 /*
 // Detect when all images have finished loading
 document.addEventListener("DOMContentLoaded", function () {
@@ -157,3 +167,11 @@ document.addEventListener("DOMContentLoaded", function () {
 //   this.classList.toggle("is-active");
 //   ham.classList.add("visi");
 // });
+
+let gli = document.querySelector("#ab");
+let t = document.querySelector(".btn");
+
+setInterval(() => {
+  gli.classList.toggle("glitch-text");
+  t.classList.toggle("glitch-text");
+}, 1000);

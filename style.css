@@ -10,7 +10,9 @@ body {
   background-color: black;
   scroll-behavior: initial;
   overflow-x: hidden;
-  background-image: url("https://drive.google.com/uc?id=1AzuVM-676NYLrGdZfdn2YwRMtD4yvTmO");
+  background: url("https://drive.google.com/uc?id=1AzuVM-676NYLrGdZfdn2YwRMtD4yvTmO")
+    center center fixed;
+  background-size: cover;
 }
 
 #logo img {
@@ -565,4 +567,22 @@ ul li a:hover {
 
 .preloader.fade-out + .content {
   opacity: 1;
+}
+
+.glitch-text {
+  /* font-size: 48px; */
+  font-weight: bold;
+  /* text-shadow: red 6px 6px 5px, cyan 2px 4px 2px; */
+  animation: glitch-anim 0.01s linear alternate-reverse;
+}
+
+@keyframes glitch-anim {
+  0% {
+    text-shadow: red 0px 0px 5px, cyan 0px 0px 5px;
+    transform: translateY(5px);
+  }
+  100% {
+    text-shadow: red 40px 15px 5px, cyan 40px 0px 5px;
+    transform: translateY(-5px);
+  }
 }
