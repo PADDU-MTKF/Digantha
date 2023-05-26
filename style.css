@@ -12,7 +12,7 @@ body {
   overflow-x: hidden;
   background: url("https://drive.google.com/uc?id=1AzuVM-676NYLrGdZfdn2YwRMtD4yvTmO")
     center center fixed;
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 #logo img {
