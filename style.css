@@ -10,7 +10,6 @@ body {
   background-color: black;
   scroll-behavior: initial;
   overflow-x: hidden;
-  width: 100%;
   background: url("https://drive.google.com/uc?id=1AzuVM-676NYLrGdZfdn2YwRMtD4yvTmO")
     no-repeat;
   /* background-size: cover; */
