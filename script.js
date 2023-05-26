@@ -121,7 +121,7 @@ function disp() {
 }
 
 //preloader
-/*
+
 // Detect when all images have finished loading
 document.addEventListener("DOMContentLoaded", function () {
   var images = document.querySelectorAll("img");
@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
     images[i].addEventListener("load", imageLoaded);
   }
 });
-*/
+
 // // this is for hamburg
 // const hamburger = document.querySelector(".hamburger");
 // let ham = document.querySelector("#navbar ul");
