@@ -10,9 +10,9 @@ body {
   background-color: black;
   scroll-behavior: initial;
   overflow-x: hidden;
-  background: url("https://drive.google.com/uc?id=1AzuVM-676NYLrGdZfdn2YwRMtD4yvTmO")
-    center center;
-  background-size: cover;
+  background: url("https://drive.google.com/uc?id=1AzuVM-676NYLrGdZfdn2YwRMtD4yvTmO");
+    /* center center; */
+  /* background-size: cover; */
 }
 
 #logo img {

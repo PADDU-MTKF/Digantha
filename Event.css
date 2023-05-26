@@ -1,118 +1,225 @@
-
-body{
+body {
   background: #000000;
   color: white;
 }
 
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
-    display: flex;
-    justify-content: space-around;
-    /* background: #0f1434; */
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 30px 0;
-    align-items: center;
-    flex-wrap: wrap;
-    background: linear-gradient(
-      to top,
-      rgba(81, 80, 80, 0),
-      rgba(0, 0, 0, 0.69),
-      rgb(0, 0, 0)
-    
-      );
-      position: fixed;
-      top:0;
-      z-index: 2;
-      width: 100vw;
-  }
-  nav{
-    display:none;
-  }
-  ul {
-    display: flex;
-    gap: 2em;
-    flex-wrap: wrap;
-  }
-  ul li {
-    list-style: none;
-    cursor: pointer;
-    transition: all 0.2s;
-    letter-spacing: 1px;
-    color: rgba(219, 215, 215, 0.564);
-    font-size: larger;
-  }
-  ul li:hover {
-    color: white;
-  }
+  display: flex;
+  justify-content: space-around;
+  /* background: #0f1434; */
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px 0;
+  align-items: center;
+  flex-wrap: wrap;
+  background: linear-gradient(
+    to top,
+    rgba(81, 80, 80, 0),
+    rgba(0, 0, 0, 0.69),
+    rgb(0, 0, 0)
+  );
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100vw;
+}
+nav {
+  display: none;
+}
+ul {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+ul li {
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 1px;
+  color: rgba(219, 215, 215, 0.564);
+  font-size: larger;
+}
+ul li:hover {
+  color: white;
+}
 
+.left {
+  width: 50%;
+  padding: 10px 30px;
+}
 
-  /* ******************************************** */
+#navbar {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
 
-.right img{
+#navbar::before {
+  content: "";
+  /* background-color: black; */
+  background: linear-gradient(
+    to top,
+    rgba(81, 80, 80, 0),
+    rgba(0, 0, 0, 0.69),
+    rgb(0, 0, 0)
+  );
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+#navbar ul {
+  display: flex;
+  margin: 0 70px;
+}
+
+#navbar ul li {
+  /* color: white; */
+  list-style: none;
+  font-weight: bold;
+  /* font-size: 1.3rem; */
+  margin: 0 10px;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#navbar ul li a:hover {
+  color: black;
+  background: white;
+}
+
+.nav_rules_ {
+  color: white;
+  background: #000000;
+  position: absolute;
+  top: 10em;
+  width: 48em;
+  padding: 20px;
+  border-radius: 25px 2px 2px 25px;
+  border: 2px solid red;
+  transform: translateY(-34em);
+  transition: all 0.4s;
+  overflow-y: scroll;
+  height: 20em;
+  margin: auto;
+}
+.nav_rules_ ul li {
+  color: white;
+  list-style: disc;
+}
+
+.nav_rules_ button {
+  background: none;
+  border: 2px solid white;
+  color: white;
+  padding: 5px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px 0;
+  transition: all 0.2s;
+}
+
+.nav_rules_ button:hover {
+  background-color: white;
+  color: black;
+}
+.nav_rules_visible {
+  display: block;
+  transform: translateY(1em);
+}
+
+#logo h1 {
+  color: white;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+#logo {
+  margin: 10px 34px;
+  /* height: 45px; */
+}
+/* ******************************************** */
+
+.right img {
   width: 50em;
   height: 30em;
-  border-radius:20px ;
+  border-radius: 20px;
 }
 
-.conatainer{
+.conatainer {
   display: flex;
   margin: 10em 4em;
   justify-content: space-between;
   /* flex-wrap: wrap; */
   /* width: 100%; */
 }
-.staff{
+.staff {
   display: flex;
 }
-.left,.right{
+.left,
+.right {
   width: fit-content;
 }
-.participants{
+.participants {
   display: block;
   margin: 1em;
-  
 }
-.participants li{
+.participants li {
   color: white;
   list-style: disc;
   font-family: Arial, Helvetica, sans-serif;
   cursor: none;
   font-size: 19px;
   width: 70%;
-
 }
 
-.left h1{
+.left h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 60px;
 }
-.red_brackets{
+.red_brackets {
   color: red;
 }
-.staff div label{
+.staff div label {
   color: red;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.staff div p{
+.staff div p {
   font-family: Arial, Helvetica, sans-serif;
   width: fit-content;
   margin: 0 10px;
   font-size: 15px;
   line-height: 24px;
-  
 }
 
-.content_contact img{
+.content_contact img {
   width: 50px;
   height: 50px;
 }
 
-.rules{
+.rules {
   margin: 4em 0;
 }
-

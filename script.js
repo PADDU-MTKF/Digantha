@@ -122,14 +122,26 @@ function disp() {
 
 //preloader
 
-setTimeout(() => {
-  var preloader = document.querySelector(".preloader");
-  preloader.classList.add("fade-out");
+if (!sessionStorage.getItem("loaded")) {
+  setTimeout(() => {
+    var preloader = document.querySelector(".preloader");
+    preloader.classList.add("fade-out");
 
-  setTimeout(function () {
-    preloader.style.display = "none";
-  }, 500); // Adjust the timeout value to match the duration of the fade-out animation
-}, 4000);
+    setTimeout(function () {
+      preloader.style.display = "none";
+    }, 500); // Adjust the timeout value to match the duration of the fade-out animation
+  }, 4000);
+  sessionStorage.setItem("loaded", true);
+} else {
+  setTimeout(() => {
+    var preloader = document.querySelector(".preloader");
+    preloader.classList.add("fade-out");
+
+    setTimeout(function () {
+      preloader.style.display = "none";
+    }, 500); // Adjust the timeout value to match the duration of the fade-out animation
+  }, 1000);
+}
 
 /*
 // Detect when all images have finished loading
