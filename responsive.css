@@ -71,6 +71,9 @@
     color: white;
     margin: 0 50px;
   }
+  .phone_rul ul li {
+    list-style: disc;
+  }
   #client-section h1 {
     font-size: 35px;
   }
