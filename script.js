@@ -148,6 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 */
+
 // // this is for hamburg
 // const hamburger = document.querySelector(".hamburger");
 // let ham = document.querySelector("#navbar ul");
