@@ -505,19 +505,24 @@ ul li a:hover {
 #register {
   color: white;
   background: none;
-  border-radius: 20px;
-  width: 220px;
-  height: 65px;
-  font-size: 37px;
+  border-radius: 9px;
+  /* width: 220px; */
+  /* height: 65px; */
+  font-size: 28px;
   letter-spacing: -1px;
   font-family: monospace;
   border: solid red;
   margin: 50px 0px;
+  padding: 8px 14px;
 }
 
 #register:hover {
   background: rgb(255, 0, 0);
   /* color:black; */
+}
+
+.register{
+  display: none;
 }
 
 /*preloader*/
