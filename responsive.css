@@ -120,6 +120,10 @@
     margin: 50px 0px;
     padding: 8px 14px;
   }
+  footer a{
+    text-decoration: none;
+
+  }
 
   .register {
   display: block;
@@ -135,7 +139,6 @@
     border: solid red;
     margin: 50px 0px;
     padding: 8px 14px;
-    text-decoration: none;
   }
   
   .register:hover {
