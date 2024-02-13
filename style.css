@@ -10,7 +10,7 @@ body {
   background-color: black;
   scroll-behavior: initial;
   overflow-x: hidden;
-  background: url("https://drive.google.com/uc?id=1AzuVM-676NYLrGdZfdn2YwRMtD4yvTmO");
+  /* background: url("resources/stars.png"); */
     /* center center; */
   /* background-size: cover; */
 }
@@ -112,8 +112,8 @@ body {
 #home::before {
   content: "";
   position: absolute;
-  background: url("https://drive.google.com/uc?id=1n7nT42459nqkw2CJ2R1rhSJN-SPV1SP7")
-    no-repeat center center;
+  /* background: url("resources/bg.png")
+    no-repeat center center; */
   background-size: cover;
   height: 100vh;
   width: 100%;
