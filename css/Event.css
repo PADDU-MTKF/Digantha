@@ -1,0 +1,98 @@
+body {
+  background: #000000;
+  color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+ul li {
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 1px;
+  color: rgba(219, 215, 215, 0.564);
+  font-size: larger;
+}
+ul li:hover {
+  color: white;
+}
+
+.left {
+  width: 50%;
+  padding: 10px 30px;
+}
+
+
+.right img {
+  width: 50em;
+  height: 30em;
+  border-radius: 20px;
+}
+
+.conatainer {
+  display: flex;
+  margin: 10em 4em;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  /* width: 100%; */
+}
+.staff {
+  display: flex;
+}
+.left,
+.right {
+  width: fit-content;
+}
+.participants {
+  display: block;
+  margin: 1em;
+}
+.participants li {
+  color: white;
+  list-style: disc;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: none;
+  font-size: 19px;
+  width: 70%;
+}
+
+.left h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+}
+.red_brackets {
+  color: red;
+}
+.staff div label {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.staff div p {
+  font-family: Arial, Helvetica, sans-serif;
+  width: fit-content;
+  margin: 0 10px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.content_contact img {
+  width: 50px;
+  height: 50px;
+}
+
+.rules {
+  margin: 4em 0;
+}

@@ -10,11 +10,12 @@
       href="https://drive.google.com/uc?id=1eZxag5ZRDiWuDF0gmyaoyt-a3tuEVGRB"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="Event.css" />
-    <link rel="stylesheet" href="cont_resp.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/Event.css" />
+    <link rel="stylesheet" href="css/cont_resp.css" />
     <!-- <link rel="stylesheet" href="style.css" /> -->
-    <link rel="stylesheet" href="scrollbar.css" />
-    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="css/scrollbar.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
 
   <body>
@@ -24,63 +25,54 @@
 
     <nav id="navbar">
       <div id="logo">
-        <h1>DIGANTHA 2023</h1>
-      </div>
-      <ul class="nav_visibl" id="nav_ul">
-        <li class="home_line"><a href="index.html">Home</a></li>
-        <li><a href="index.html#ev">Events</a></li>
-        <li><a class="nav_rules">Rules</a></li>
-        <div class="nav_rules_">
-          <h1>RULES:-</h1>
-          <br />
-          <p></p>
-          <ul>
-            <li>
-              The competition is open exclusively to undergraduate students.
-            </li>
-            <li>The judges' decisions are final and binding.</li>
-            <li>
-              Participants must carry their bonafide certificate and valid ID
-              cards for verification.
-            </li>
-            <li>
-              Each college is allowed to send a team consisting of a maximum of
-              40 students.
-            </li>
-            <li>
-              Vulgarity, indecency, fire, and explosives are strictly
-              prohibited. Participants must complete registration before May 31,
-              2023. On the day of the event, participants must register at the
-              registration desk by 8:30 am. Additionally, participants are
-              required to refer to all the rules stated in both the brochure and
-              the official website of "The Digantha" for comprehensive
-              information and guidelines.
-            </li>
-            <li>
-              Participants engaged in Finearts events are not permitted to
-              participate in any other events.
-            </li>
-            <li>
-              Group participants are restricted from participating in individual
-              events.
-            </li>
-            <li>
-              Group and individual events will be conducted simultaneously,
-              offering participants a variety of options.
-            </li>
-            <li>
-              Participants are expected to adhere to these guidelines to ensure
-              fairness and equal opportunity for all.
-            </li>
-          </ul>
-          <button onclick="disp()">OK</button>
-        </div>
 
-        <li><a href="#con">Contact</a></li>
-        <li><a href="">Download Brochure</a></li>
+          <!-- <div style="display: flex; justify-content: space-between;align-items: center;"> -->
+              <h1>DIGANTHA 2024</h1>
+              <!-- <button class="hamburger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                 </button> -->
+          <!-- </div> -->
+      </div>
+      
+      <ul class="nav_visibl">
+          <li class="home_line"><a href="index.html#home">Home</a></li>
+          <!-- <li><a href="#timer">About</a></li> -->
+          <li><a href="index.html#event">Events</a></li>
+          <li><a class="nav_rules">Rules</a></li>
+          <div class="nav_rules_ ">
+              <h1>RULES:-</h1>
+              
+           <ul >
+              <li>The competition is open exclusively to undergraduate students.</li>
+              <li>Participants must compulsorily carry their bonafide certificate from their college with valid ID cards.</li>
+              <li>Each college is permitted to send a team comprising of only 40 students.</li>
+              <li>The team must promptly report on the same day at the registration desk by 8:30 A.M. </li>
+              <li>The contestants should refer to all the rules stated in both the brochure as well as in the official website of "The Digantha".</li>
+              <li>Any display of vulgarity or indecency during the event will result in immediate disqualification.</li>
+              <li>Use of fire or explosives is strictly prohibited.</li>
+              <li>The decisions of the judges shall be final.</li>
+              <li>Registration should be done before 9th May 2024.</li>
+          </ul>
+          <br>
+              <h1>FINEARTS RULES:-</h1>
+              <br>
+          <ul>
+              <li>Participants who are participating in finearts events are not allowed to participate in any other events.</li>
+              <li>Group participants are not allowed to participate in individual events.</li>
+              <li>Each team consists not more than 18 members.</li>
+              <li>Group & individual events will be conducted simultaneously.</li>
+           </ul>
+              <button onclick="disp()">OK</button>
+          </div>
+
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="https://drive.google.com/file/d/1kvn65_NOWvFY8v8fwJiFBrE0Kks4NYgi/view?usp=sharing" download>Download Brochure</a></li>
       </ul>
-    </nav>
-    <section class="conatainer">
+ 
+  </nav>
+    <section id="blr" class="conatainer">
       <div class="left">
         <h1 id="title"></h1>
         <h1 id="red_b" class="red_brackets"></h1>
@@ -109,6 +101,8 @@
       </div>
     </section>
 
-    <script src="content.js"></script>
+    <script src="js/content.js"></script>
+    <script src="js/nav.js"></script>
+
   </body>
 </html>
