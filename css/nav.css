@@ -1,3 +1,11 @@
+.blur {
+  filter: blur(50px); /* Apply a blur effect to the body */
+  transition: filter 0.1s ease; /* Add transition for the filter property */
+}
+.hide_scrole{
+  overflow: hidden; /* Prevent scrolling */
+
+}
 
 #navbar {
     display: flex;

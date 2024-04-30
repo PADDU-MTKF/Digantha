@@ -341,14 +341,7 @@ a:visited {
   width: 50%;
 }
 
-.blur {
-  filter: blur(50px); /* Apply a blur effect to the body */
-  transition: filter 0.1s ease; /* Add transition for the filter property */
-}
-.hide_scrole{
-  overflow: hidden; /* Prevent scrolling */
 
-}
 .cent_p{
   text-align: center !important;
   line-height: 1.5em !important;

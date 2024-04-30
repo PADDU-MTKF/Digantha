@@ -20,4 +20,9 @@ function disp() {
 
 }
 
+function goBack() {
+  window.history.back(); // Navigate back in the browsing history
+}
+
+
 window.history.replaceState('Object', 'Title', '/');
