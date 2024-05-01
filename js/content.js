@@ -131,7 +131,7 @@ const data = {
   "NO EXPECTATIONS(Surprise Event)": {
     name: "NO EXPECTATIONS (Surprise Event)",
     description:
-      "an electrifying surprise event, promises an unforgettable experience as teams of two participants embark on an adventure into the unknown. Get ready to be captivated as the rules and rounds of this thrilling competition are unveiled on the spot, keeping participants on their toes and their adrenaline pumping.Participants who are involved in this specific event are not permitted to participate in any other concurrent events.Participants must have Bgmi installed in their mobiles",
+      "an electrifying surprise event, promises an unforgettable experience as teams of two participants embark on an adventure into the unknown. Get ready to be captivated as the rules and rounds of this thrilling competition are unveiled on the spot, keeping participants on their toes and their adrenaline pumping.Participants who are involved in this specific event are not permitted to participate in any other concurrent events.\n\n**     Participants must have Bgmi installed in their mobiles **",
     staffCoordinators: [
       {
         name: "Ms. Veena K",
@@ -314,8 +314,8 @@ const data = {
       }
     ]
   },
-  "NATYA LAASYA (Group Dance)": {
-    name: "NATYA LAASYA (Group Dance)",
+  "NAATYA LAASYA (Group Dance)": {
+    name: "NAATYA LAASYA (Group Dance)",
     description:
       "A  captivating group dance competition that promises to showcase the essence of rhythm and harmony. We invite teams with minimum 8 and maximum 12 participants to grace the stage with their artistic brilliance, expressing themselves through the dance styles of their choice. Each performance will be allotted 6 minutes, with an additional 2 minutes for stage setting. Pendrives must be submitted before 11:30 am to ensure smooth execution of routines. Live instruments are permitted, but participants must bring their own equipments. However, the use of fire, vulgarity, or political themes will result in disqualification.",
     staffCoordinators: [
