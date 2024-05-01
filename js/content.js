@@ -367,7 +367,7 @@ const data = {
   "X-ROSTRO PICTURA(Face Painting)": {
     name: "X-ROSTRO PICTURA (Face Painting) ",
     description:
-      "",
+      "A Beautiful platform where an individual need to show case their talents on the face of a model where team consist of 2 from each college.The participants are not supposed to participate in group events.An artist gets a one-hour of time to complete the creative and artistic work on the face of a model.Each college is invited to send one team representative to participate in the event.The theme will be given on spot,providing a unique and challenging theme for the team representing their college.The participants has to get their own belongings for their existing event.",
       staffCoordinators: [
         {
           name: "Ms. Sujatha",
