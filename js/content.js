@@ -103,10 +103,10 @@ const data = {
       }
     ]
   },
-  "I-Tensity (IT Manager)": {
+  "I-Tensity (IT Management)": {
     name: "I-Tensity (IT Manager)",
     description:
-      "I-Tensity (IT Manager)",
+      "Welcome to I-Tensity, where the pulse of IT beats with fervor! In this exhilarating event, teams of three unite to push the boundaries of innovation and teamwork. Comprising two developers and one manager per team, the roles are set in stone once determined, fostering a dynamic balance of technical expertise and leadership. However, the true essence of I-Tensity lies in adaptability – participants must embody a hunger for learning, readily embracing new technologies and methodologies. Join us as we embark on a journey of discovery, creativity, and the relentless pursuit of IT excellence at I-Tensity!",
     staffCoordinators: [
       {
         name: "Ms. Poornima Gokhale",
@@ -199,7 +199,8 @@ const data = {
   "VIP-VelocityInnovative Physics(Physics)": {
     name: "VIP-Velocity Innovative Physics (Physics)",
     description:
-      "VIP- Velocity Innovative Physics (Physics)",
+      "VIP -velocity innovative physics , an exhilarating physics event,provides a platform for teams of two participants to showcase their exemplary theoretical and practical knowledge in the fascinating world of physics.To engage in this intellectually stimulating competition, participants are urged to come prepared with their own stationary, ensuring they have the necessary tools to demonstrate their understanding.Additionally,the inclusion of a scientific calculator is essential,allowing participants to tackle complex calculation and unlock the mysteries of the physical world with precision and accuracy. Participants who are involved in this specific event are not permitted to participate in any other concurrent events.",
+
     staffCoordinators: [
       {
         name: "Ms. Nireeksha",
@@ -341,7 +342,7 @@ const data = {
   "CINEMAGIC(Photography &Videography)": {
     name: "CINEMAGIC (Photography & Videography) ",
     description:
-      "CINEMAGIC (Photography and Videography) ",
+      "CINEMAGIC-An enthralling videography and photography event, challenges teams of one  participant to showcase their  skills through the lens of a camera. On the spot, teams will be provided with a topic to explore and create a compelling videography and photography . The videography should not exceed 1:30 min .While participants have the freedom to use mobile phones or cameras for recording their footage, it is important to note that clippings from the internet or other external sources are not allowed. This ensures that the videography are original and reflective of the participant’s creativity and reel making abilities. Join us for an engaging journey of visual storytelling in the captivating world of VIDEOGRAPHY.Participants who are involved in this specific event are not permitted to participate in any other concurrent events.",
     staffCoordinators: [
       {
         name: "Dr. Prashanth M.D",
@@ -366,7 +367,7 @@ const data = {
   "X-ROSTRO PICTURA(Face Painting)": {
     name: "X-ROSTRO PICTURA (Face Painting) ",
     description:
-      "ROSTRO PICTURA (Face Painting) ",
+      "",
       staffCoordinators: [
         {
           name: "Ms. Sujatha",
@@ -388,7 +389,7 @@ const data = {
   "MANIFESTO STUDIO(Hand-made Posters)": {
     name: "MANIFESTO STUDIO (Hand-made Posters) ",
     description:
-      "MANIFESTO STUDIO (Hand-made Posters) ",
+      "Manifesto Studio, a creative platform where participants can showcase their artistic talents through hand-made posters. The event is designed to challenge participants to think on their feet and create visually captivating posters within a one-hour time limit. Each college is invited to send one representative to participate in this exciting event. Upon arrival, participants will be given a theme on the spot, providing a unique and spontaneous creative challenge. To ensure a smooth and successful event, participants are required to bring their own materials such as pens, pencils, markers, scissors, glue, and any other supplies they may need to create their posters. The event organizers will provide only the necessary charts for the participants to use. It is essential for participants to adhere to the given theme and showcase their creativity and artistic skills through their hand-made posters.",
     staffCoordinators: [
       {
         name: "Ms. Akshatha Shetty",
