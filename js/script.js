@@ -26,7 +26,7 @@ window.onload = function () {
 
 let timer_element = document.querySelector(".btn");
 // Set the countdown date and time
-var countdownDate = new Date("May 14, 2024 08:30:00").getTime();
+var countdownDate = new Date("April 04, 2025 08:30:00").getTime();
 
 // Update the countdown every second
 var countdownTimer = setInterval(function () {
@@ -104,7 +104,7 @@ box.forEach((item, i1) => {
 let reg_btn = document.getElementById("register");
 reg_btn.addEventListener("click", () => {
   window.location.href =
-    "https://forms.gle/Rgd8fqSnD483DGLN6";
+    "https://docs.google.com/forms/d/e/1FAIpQLSeSKx4clWuAyXEu-4239dRgcsLZzX1IGBJRvLKrMhvVnb6mMw/viewform?usp=dialog";     // Chang the URL to the google form reg form ...............................................
 });
 
 
