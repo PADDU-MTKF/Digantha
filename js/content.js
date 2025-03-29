@@ -94,7 +94,7 @@ const data = {
   "TechXtreme (CODING + CHALLENGE)": {
     name: "TechXtreme (CODING + CHALLENGE)",
     description:
-      "Welcome to TechXtreme, where the pulse of IT beats with fervor! In this exhilarating event, teams of three unite to push the boundaries of innovation and teamwork. Comprising two developers and one manager per team, the roles are set in stone once determined, fostering a dynamic balance of technical expertise and leadership. However, the true essence of TechXtreme lies in adaptability – participants must embody a hunger for learning, readily embracing new technologies and methodologies. Join us as we embark on a journey of discovery, creativity.Basic knowledge of HTML,CSS,JAVASCRIPT are required and Proficiency in atleast one of C,PYTHON and JAVA is required.",
+      "Get ready for an exhilarating IT event! Compete in a series of challenges that will test your technical skills, knowledge, and innovation. Showcase your expertise and win prizes in this ultimate battle of tech supremacy! A team can consist of maximum 2 members,The rounds will be explained on the spot,Organizers reserve the right to change the rules on the spot,Participants are not allowed to participate in any other events.Basic knowledge of HTML, CSS, JavaScript.Proficiency in at least one of C, Java and Python is required.Electronic gadgets are not permitted.",
     staffCoordinators: [
       {
         name: "Ms. Vidya C Patil",
@@ -119,7 +119,7 @@ const data = {
   "Versus(Gaming)": {
     name: "Versus(Gaming)",
     description:
-     " Versus an electrifying surprise event, promises an unforgettable experience as teams of four participants embark on an adventure into the unknown. Get ready to be captivated as the rules and rounds of this thrilling competition are unveiled on the spot, keeping participants on their toes and their adrenaline pumping.Participants who are involved in this specific event are not permitted to participate in any other concurrent events.\n\n**     Participants must have Bgmi installed in their mobiles **",
+     " Versus an electrifying BGMI gaming event, promises an unforgettable experience as teams of four participants embark on an adventure into the unknown. Get ready to be captivated as the rules and rounds of this thrilling competition are unveiled on the spot, keeping participants on their toes and their adrenaline pumping.Participants who are involved in this specific event are not permitted to participate in any other concurrent events.\n\n**     Participants must have Bgmi installed in their mobiles **",
     staffCoordinators: [
       {
         name: "Ms. Veena",
@@ -347,7 +347,7 @@ const data = {
   "SIGNUM(Hand-made Posters)": {
     name: "SIGNUM(Hand-made Posters) ",
     description:
-      "Manifesto Studio, a creative platform where participants can showcase their artistic talents through hand-made posters. The event is designed to challenge participants to think on their feet and create visually captivating posters within a one-hour time limit. Each college is invited to send one representative to participate in this exciting event. Upon arrival, participants will be given a theme on the spot, providing a unique and spontaneous creative challenge. To ensure a smooth and successful event, participants are required to bring their own materials such as pens, pencils, markers, scissors, glue, and any other supplies they may need to create their posters. The event organizers will provide only the necessary charts for the participants to use. It is essential for participants to adhere to the given theme and showcase their creativity and artistic skills through their hand-made posters.",
+      "A creative platform where participants can showcase their artistic talents through hand-made posters. The event is designed to challenge participants to think on their feet and create visually captivating posters within a one-hour time limit. Each college is invited to send one representative to participate in this exciting event. Upon arrival, participants will be given a theme on the spot, providing a unique and spontaneous creative challenge. To ensure a smooth and successful event, participants are required to bring their own materials such as pens, pencils, markers, scissors, glue, and any other supplies they may need to create their posters. The event organizers will provide only the necessary charts for the participants to use. It is essential for participants to adhere to the given theme and showcase their creativity and artistic skills through their hand-made posters.",
     staffCoordinators: [
       {
         name: "Ms. Punitha",
